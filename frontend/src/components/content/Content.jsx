@@ -5,7 +5,10 @@ import TransactionHistory from './transaction history/Transaction History';
 class Content extends Component {
     render() {
         return (
-            <><TransactionForm /><TransactionHistory /></>
+            <>
+                <TransactionForm />
+                <TransactionHistory />
+            </>
         );
     }
 }
