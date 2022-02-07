@@ -7,8 +7,7 @@ class NavigationBar extends Component {
     render() {
 
         return (
-
-            <nav className='flex space-x-4 items-stretch  justify-start bg-blue-200 border-2 border-b-black pt-0 mt-0'>
+            <nav className='flex space-x-4 items-stretch overflow-hidden h-16 justify-start bg-blue-200 border-2 border-b-black pt-0 mt-0'>
                 <LogoAndWebsiteName />
                 <NavigationBarMenu />       
             </nav>
